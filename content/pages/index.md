@@ -17,8 +17,8 @@ sections:
       I’m a Wizard with tech. Phones, Laptops, And tablets all fixed here.
       schedule or call below
     subtitle: >-
-      Mobile service-"I come to you", Diagnosis for FREE, You pay the cost of
-      the parts plus $50.00
+      Mobile service-"I come to you", Diagnosis for FREE, You only pay the cost
+      of the parts plus $50.00
     styles:
       self:
         height: auto
