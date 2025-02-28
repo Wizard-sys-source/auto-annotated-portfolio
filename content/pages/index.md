@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      I’m a Wizard with tech.Phones, Laptops, And tablets all fixed here.
+      I’m a Wizard with tech. Phones, Laptops, And tablets all fixed here.
       schedule or call below
     subtitle: >-
       Mobile service-"I come to you", Diagnosis for FREE, You pay the cost of
