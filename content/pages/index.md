@@ -13,7 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: 'I’m a Wizard with tech, don''t believe me, schedule below'
+    title: 'I’m a Wizard with tech, don''t believe me, schedule or call below'
     subtitle: >-
       Mobile service-"I come to you", Diagnosis for FREE, You pay the cost of
       the parts plus $50.00
