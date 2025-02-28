@@ -48,7 +48,7 @@ sections:
     quote: |
       My phone contact: 316-619-0282
     name: Jonathan Turner
-    title: Repair Wizard
+    title: Repair Wizard at MagicByte
     colors: colors-f
     elementId: ''
     styles:
