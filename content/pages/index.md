@@ -15,7 +15,7 @@ sections:
     backgroundSize: full
     title: >-
       Tech Wizard at Your Service! Phones, Laptops, Tablets – Fixed Fast! Call
-      or schedule
+      or schedule below
     subtitle: "\"We Come to You – Convenient, Hassle-Free, and Affordable!\"\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_Tired of taking your device to a shop? Let us bring the service directly to you! We offer FREE diagnosis on all repairs, so you can know exactly what's wrong without any surprise fees.\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ Only pay for the parts and a small $50 service charge – that's it! No hidden fees, no extra charges. We handle everything at your convenience, whether you're at home or at work, saving you time and stress."
     styles:
       self:
