@@ -47,7 +47,7 @@ sections:
   - type: QuoteSection
     quote: |
       My phone contact: 316-619-0282
-    name: Johnna Doe
+    name: Jonathan Turner
     title: Product Marketing Manager at Acme
     colors: colors-f
     elementId: ''
