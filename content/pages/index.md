@@ -14,7 +14,9 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: 'I’m a Wizard with tech, don''t believe me, schedule below'
-    subtitle: 'Mobile service-"I come to you", Diagnosis'
+    subtitle: >-
+      Mobile service-"I come to you", Diagnosis for FREE, You pay the cost of
+      the parts plus $50.00
     styles:
       self:
         height: auto
