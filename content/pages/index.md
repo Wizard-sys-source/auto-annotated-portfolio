@@ -102,7 +102,7 @@ sections:
           name: email
           label: Name
           hideLabel: true
-          placeholder: Contact phone number
+          placeholder: Phone number
           width: 1/2
           isRequired: 'true'
         - type: TextareaFormControl
