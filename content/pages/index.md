@@ -110,7 +110,7 @@ sections:
           name: message
           label: Tell me about your broken device
           hideLabel: true
-          placeholder: Tell me about your wounded device
+          placeholder: Tell me about your damaged device
           width: full
           isRequired: true
         - type: CheckboxFormControl
