@@ -99,7 +99,7 @@ sections:
           width: 1/2
           isRequired: 'true'
         - type: EmailFormControl
-          name: email or phone number
+          name: email
           label: Name
           hideLabel: true
           placeholder: Your email
