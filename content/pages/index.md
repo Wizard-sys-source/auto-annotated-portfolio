@@ -48,7 +48,7 @@ sections:
     quote: |
       My phone contact: 316-619-0282
     name: Jonathan Turner
-    title: Product Marketing Manager at Acme
+    title: Repair Wizard
     colors: colors-f
     elementId: ''
     styles:
