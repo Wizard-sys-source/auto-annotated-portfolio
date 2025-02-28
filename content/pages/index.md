@@ -13,8 +13,10 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: 'I’m a Wizard with tech, don''t believe me, schedule below'
-    subtitle: 'Mobile service-"I come to you", Diagnosis'
+    title: >-
+      Tech Wizard at Your Service! Phones, Laptops, Tablets – Fixed Fast! Call
+      or schedule below
+    subtitle: "\"We Come to You – Convenient, Hassle-Free, and Affordable!\"\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_Tired of taking your device to a shop? Let us bring the service directly to you! We offer FREE diagnosis on all repairs, so you can know exactly what's wrong without any surprise fees.\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ Only pay for the parts and a small $50 service charge – that's it! No hidden fees, no extra charges. We handle everything at your convenience, whether you're at home or at work, saving you time and stress."
     styles:
       self:
         height: auto
@@ -42,150 +44,95 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
-  - colors: colors-f
-    type: FeaturedProjectsSection
+  - type: DividerSection
+    title: Divider
     elementId: ''
-    actions:
-      - type: Link
-        label: See all projects
-        url: /projects
-    showDate: false
-    showDescription: true
-    showFeaturedImage: true
-    showReadMoreLink: true
-    variant: variant-b
-    projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
+    styles:
+      self:
+        width: narrow
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+  - type: QuoteSection
+    quote: |
+      My phone contact: 316-619-0282
+    name: Jonathan Turner
+    title: Repair Wizard at MagicByte
+    colors: colors-f
+    elementId: ''
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
-          - pt-24
-          - pb-24
+          - pt-36
+          - pb-36
           - pl-4
           - pr-4
         justifyContent: center
+      quote:
+        textAlign: left
+      name:
+        fontWeight": 500
+        textAlign: left
       title:
+        fontWeight": 400
         textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-end
-    subtitle: Projects
-  - type: FeaturedPostsSection
-    elementId: ''
-    colors: colors-f
-    variant: variant-d
-    subtitle: Featured Posts
-    showFeaturedImage: false
-    actions:
-      - type: Link
-        label: See all posts
-        url: /blog
-    posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
-    showDate: true
-    showExcerpt: true
-    showReadMoreLink: true
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-28
-          - pb-48
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-end
   - type: ContactSection
-    colors: colors-f
-    backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: Contact Me
+    text: |
+      I look forward to hearing from you.
     form:
       type: FormBlock
-      elementId: sign-up-form
+      title: Title of the form
       fields:
-        - name: firstName
-          label: First Name
+        - type: TextFormControl
+          name: name
+          label: Name
           hideLabel: true
-          placeholder: First Name
-          isRequired: true
+          placeholder: Your name
           width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
+          isRequired: 'true'
+        - type: EmailFormControl
+          name: email
+          label: Name
           hideLabel: true
-          placeholder: Last Name
-          isRequired: false
+          placeholder: Phone number
           width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
+          isRequired: 'true'
+        - type: TextareaFormControl
+          name: message
+          label: Tell me about your broken device
           hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: 1/2
-          type: EmailFormControl
-        - name: address
-          label: Address
-          hideLabel: true
-          placeholder: Address
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
+          placeholder: Tell me about your damaged device
           width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+          isRequired: true
+      submitLabel: Send Message
+      elementId: contact-form
       styles:
         submitLabel:
-          textAlign: center
+          textAlign: left
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
     styles:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
-          - pt-24
-          - pb-24
-          - pr-4
+          - pt-28
+          - pb-36
           - pl-4
+          - pr-4
         alignItems: center
         justifyContent: center
         flexDirection: row
       title:
-        textAlign: left
+        textAlign: center
       text:
-        textAlign: left
+        textAlign: center
 ---
