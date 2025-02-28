@@ -5,7 +5,7 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "MagicByte",
         "isTitleVisible": true,
         "primaryLinks": [
             {
@@ -27,10 +27,10 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
+                "altText": "Facebook",
+                "label": "Facebook",
                 "url": "https://twitter.com/netlify",
-                "icon": "twitter"
+                "icon": "facebook"
             },
             {
                 "type": "Social",
@@ -88,7 +88,12 @@
         "styles": {
             "self": {
                 "width": "narrow",
-                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pr-4",
+                    "pl-4"
+                ]
             }
         }
     }
